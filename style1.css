@@ -1,0 +1,56 @@
+body{
+   background-image: url(bg.jpg);
+    background-size: cover;
+    background-position:fixed;
+    text-align: center;
+}
+.bomb{
+display: flex;
+text-align: center;
+
+}
+button{
+    height: 430px;
+    margin-left: 400px;
+    margin-top: 130px;
+    border: none;
+    border-radius: 70%;
+    position: relative;
+   background-color: black;
+   background-size: cover;
+    text-align: center;
+}
+img{
+    border-radius: 30% 10px ;
+    height: 300px;
+    width: 200px;
+}
+
+.ribbon {
+    width: 80px;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 10px;
+    top: -12px;
+    text-align: center;
+    border-radius: 75px 10px  70px 30px;
+    transform: rotate(20deg);
+    background-color: red;
+    color: white;
+  }
+  
+  h2{
+   margin:10px;
+    border-radius: 7px;
+    background-color:black;
+    font-size:50px;
+    text-decoration: dashed;
+    color:rgb(255, 15, 15);
+    cursor: pointer;
+    
+  }
+  a{
+   
+    text-decoration: none;
+  }
